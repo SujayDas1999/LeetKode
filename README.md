@@ -25,14 +25,14 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Setup an ENV file to run your code 
-.env.local
-NEXT_PUBLIC_FIREBASE_API_KEY
-NEXT_PUBLIC_FIREBASE_API_DOMAIN
-NEXT_PUBLIC_FIREBASE_PROJECT_ID
-NEXT_PUBLIC_STORAGE_BUCKET
-NEXT_PUBLIC_MESSAGINGSENDERID
-NEXT_PUBLIC_FIREBASE_APP_ID
-RECOIL_DUPLICATE_ATOM_KEY_CHECKING_ENABLED
+- .env.local
+- NEXT_PUBLIC_FIREBASE_API_KEY
+- NEXT_PUBLIC_FIREBASE_API_DOMAIN
+- NEXT_PUBLIC_FIREBASE_PROJECT_ID
+- NEXT_PUBLIC_STORAGE_BUCKET
+- NEXT_PUBLIC_MESSAGINGSENDERID
+- NEXT_PUBLIC_FIREBASE_APP_ID
+- RECOIL_DUPLICATE_ATOM_KEY_CHECKING_ENABLED
 
 
 ## Learn More
