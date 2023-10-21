@@ -6,6 +6,7 @@ import { BsList } from "react-icons/bs";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "@/firebase/Firebase";
 import Logout from "../Buttons/Logout";
+import Timer from "../Timer/Timer";
 
 type TopbarProps = {
   problemPage?: boolean;
@@ -59,6 +60,7 @@ const Topbar: React.FC<TopbarProps> = ({ problemPage }) => {
           </Link>
         )}
 
+        {problemPage && <Timer />}
         {user && (
           <div className="cursor-pointer group relative">
             <Image
